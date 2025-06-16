@@ -15,11 +15,11 @@ This Python script automates the cleaning and formatting of provider charge CSV 
 
 ## 🧠 Key Features
 
-- ✅ Customizable logic for different provider formats (e.g. "Larkin", "St Joe")
-- ✅ Environment-aware using `.env` for injecting IDs (`PROVIDER`, `ID`)
-- ✅ Handles both PyInstaller executables and regular Python scripts
-- ✅ Automatically renames output files using a `Provider MMDDYYYY.csv` format
-- ✅ Error handling with Windows message dialogs for failed or unsupported files
+- Customizable logic for different provider formats (e.g. "Larkin", "St Joe")
+- Environment-aware using `.env` for injecting IDs (`PROVIDER`, `ID`)
+- Handles both PyInstaller executables and regular Python scripts
+- Automatically renames output files using a `Provider MMDDYYYY.csv` format
+- Error handling with Windows message dialogs for failed or unsupported files
 
 ## 👨‍💻 Tech Stack
 
