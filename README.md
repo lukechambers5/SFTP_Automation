@@ -1,4 +1,4 @@
-# Provider CSV Cleaner
+# SFTP Automation
 
 This Python script automates the cleaning and formatting of provider charge CSV files. It applies validation rules, fills missing values, standardizes provider naming, and saves clean, renamed outputs—ready for reporting or further ETL processing.
 
