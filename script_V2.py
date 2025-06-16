@@ -6,6 +6,11 @@ import re
 import csv
 from decimal import Decimal, InvalidOperation
 import ctypes 
+from dotenv import load_dotenv
+
+load_dotenv()
+ID = os.getenv('ID')
+PROVIDER = os.getenv('PROVIDER')
 
 if getattr(sys, 'frozen', False):
     # Running as a PyInstaller executable
@@ -49,8 +54,8 @@ def process(df, filename):
         if billing_provider in ["LWBS", "Unknown Provider"]:
             rows_to_delete.append(index)
             continue
-        if billing_provider == "Byrd, Aricia - MD" and pd.isna(billing_provider_id):
-            df.iat[index, bpid_index] = "1134785827"
+        if billing_provider == PROVIDER and pd.isna(billing_provider_id):
+            df.iat[index, bpid_index] = ID
 
         prev_row = df.iloc[index - 1]
 
