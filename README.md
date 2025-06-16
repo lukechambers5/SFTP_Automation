@@ -21,7 +21,7 @@ This Python script automates the cleaning and formatting of provider charge CSV 
 - Automatically renames output files using a `Provider MMDDYYYY.csv` format
 - Error handling with Windows message dialogs for failed or unsupported files
 
-## 👨‍💻 Tech Stack
+## 👨‍💻 Tech Highlights
 
 - Python 3.x
 - `pandas`, `csv`, `re`, `shutil`, `ctypes`
