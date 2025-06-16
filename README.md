@@ -13,15 +13,6 @@ This Python script automates the cleaning and formatting of provider charge CSV 
 - Writes cleaned `.csv` files to a `PROCESSED` folder with consistent naming
 - Archives originals into an `OLD_FILES` folder after processing
 
-## 📁 Folder Structure
-
-📦 root
-┣ 📂 CSV_FILES # Drop raw input files here
-┣ 📂 PROCESSED # Cleaned files are saved here
-┣ 📂 OLD_FILES # Original files are moved here after processing
-┗ 🐍 script.py # Main script
-
-
 ## 🧠 Key Features
 
 - ✅ Customizable logic for different provider formats (e.g. "Larkin", "St Joe")
